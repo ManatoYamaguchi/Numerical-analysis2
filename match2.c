@@ -7,7 +7,10 @@ int main()
 
 	cCnt = 0;
 
+	printf("一つ目の文字列を入力してください\n");
 	scanf("%s", str1);
+
+	printf("二つ目の文字列を入力してください\n");
 	scanf("%s", str2);
 
 	printf("str1 %s\n", str1);
