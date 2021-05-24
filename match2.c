@@ -13,9 +13,6 @@ int main()
 	printf("二つ目の文字列を入力してください\n");
 	scanf("%s", str2);
 
-	printf("str1 %s\n", str1);
-	printf("str2 %s\n", str2);
-
 	//１回目
 
 	eCnt1 = eCnt2 = 0;
@@ -176,10 +173,6 @@ int main()
 		}
 	}
 
-	printf("%s\n", candStr1);
-	printf("%s\n", candStr2);
-	printf("%s\n", match);
-
 	//candへの代入
 
 	for(count1 = 0; count1 < 64; count1++)
@@ -241,15 +234,13 @@ int main()
 			}
 		}
 
-		printf("%d\n",xCnt);
-
 		if(cand[count1 * 3 + 3][0] == '\0')
 		{
 			count1 = 64;
 		}
 	}
 
-	printf("-------------test-------------\n");
+	/*printf("-------------test-------------\n");
 
 	for(count1 = 0; count1 < 64; count1++)
 	{
@@ -261,7 +252,7 @@ int main()
 		}
 	}
 
-	printf("%d\n", candNum);
+	printf("%d\n", candNum);*/
 
 	printf("------------result------------\n");
 
